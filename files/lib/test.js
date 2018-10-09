@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         medição de tempo e envia o resultado para o banco.
         Altere o seletor abaixo para o do elemento desejado.
     */
-    let element = document.querySelector('.clicar')
+    let element = document.querySelectorAll('.clicar')
 
     /*
         A princípio, o restante do código não precisa mudar.
