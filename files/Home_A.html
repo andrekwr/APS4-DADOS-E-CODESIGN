@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+  <script src="lib/app.js"></script>
+  <script src="lib/database.js"></script>
+  <script src="lib/fingerprint.js"></script>
+  <script src="lib/ciendad.js"></script>
+  <script src="lib/test.js"></script>
+
+
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.all {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+/*.background {
+  background-image: url("Files/images/fundo.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-origin: content-box;
+  background-position: 17rem;
+  background-size: 58rem 74rem;
+}*/
+
+
+
+.group1 {
+  margin: 0rem 2.3rem 0rem 0rem;
+}
+
+.group2 {
+  margin: 0rem 2rem 0rem 0rem;
+}
+
+.group3 {
+  margin: 0rem 2.3rem 0rem 0rem;
+}
+
+.group4 {
+  margin: 0rem 2rem 0rem 0rem ;
+}
+
+
+
+
+
+.description {
+  text-align:center;
+  font-family: Arial;
+  max-width: 400px;
+  margin:0 auto;
+  text-align:justify;
+  line-height: 25px;
+}
+
+
+
+.title {
+  text-align:center;
+  font-family: Ubuntu;
+  margin:0 auto;
+  max-width: 500px;
+}
+
+
+
+
+ul {
+    text-align: center;
+    overflow: hidden;
+    max-width: 1200px;
+    margin-right: 2rem ;
+    background-color: #2E2633;
+}
+
+
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 5rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #FF0000
+}
+
+
+body {
+    background-color: whitesmoke;
+}
+
+
+
+
+#main {
+
+  display: flex;
+  margin: auto;
+  justify-content: center;
+
+
+}
+
+
+
+.logo {
+  margin: 0rem 0rem 0rem 0rem;
+
+  
+}
+
+
+
+
+.header {
+  height:auto;
+  width:auto;
+  display: flex;
+  justify-content: center;
+  margin: 0rem 10rem 0rem 0rem;
+} 
+
+
+.frase {
+  font-family: Ubuntu;
+  margin: 2rem 0rem 0rem 8rem;
+  font-size: 1.5rem
+}
+
+
+
+.borda {
+  border: #FF0000 Solid 10px;
+
+}
+
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 360px) {
+
+
+  .logo{
+    height:120px;
+    width: 170px;
+    margin: 2rem 0rem 0rem 20rem;
+  }
+
+  .header {
+    display:flex;
+    margin: 0rem 10rem 0rem 0rem;
+  }
+
+  .dropbtn {
+    margin: 0rem 0rem 0rem 2rem;
+  }
+
+  .frase{
+    margin: 2rem 10rem 0rem 0rem;
+    font-size: 1rem;
+  }
+
+
+
+/*  .background {
+  background-image: url("fundo.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-origin: content-box;
+  background-position: 1rem;
+  background-size: 100rem 110rem;
+  }*/
+
+
+
+  #main {
+    display: block;
+  }  
+
+
+  .all {
+    display:block;
+  }
+
+
+}
+
+</style>
+</head>
+<body>
+
+
+
+
+<div class="header">
+
+  <div class="logo_div">
+      <img class="logo" width="250" height="150" id="logo" src='images/logo.png' alt="logo"/>
+  </div>
+
+  <div class="frase">
+    <h3> INSPIRAR, PERTENCER E INOVAR </h3>
+  </div>
+</div>
+
+
+
+
+
+<div id="main">
+  <div class="navbar">
+    <ul>
+      <div class="dropdown">
+        <li><a class="dropbtn" href="Home_A.html">Home</a></li>
+        <div class="dropdown-content">
+          <a href="Files/PaginaGrupo_Rodrigo.html">ESTUDO TEÓRICO AUTÔNOMO</a>
+          <a href="Files/PaginaGrupo_Andre.html">ESTUDO EMPRESARIAL</a>
+          <a href="Files/PaginaGrupo_luiza.html">PROJETO AUTÔNOMO PRÁTICO E TEÓRICO</a>
+          <a href="Files/PaginaGrupo_José.html">PRJETOS FÍSICOS E MECÂNICOS</a>
+        </div>
+      </div> 
+      <li><a href="Files/Sobre_nos_Rodrigo.html">Sobre nós</a></li>
+      <li><a href="Files/Fotos_Jose.html">Fotos</a></li>
+      <li><a href="Files/Contato_Luiza.html">Contatos</a></li>
+      
+    </ul>
+
+  </div>
+</div>
+
+
+<div class="background">
+
+<div class="all">
+  <div class="group1">
+    <div class="title">
+      <h3> ESTUDO TEÓRICO AUTÔNOMO </h3>
+    </div>
+    <div class="picture">
+      <a class="clicar" href="PaginaGrupo_Rodrigo.html">
+        <img class="borda" src="images/estudos-teoricos.jpg" width="440" alt="Estudos Teóricos Autônomos">
+      </a>
+    </div>
+    <div class="description">
+      <p class="text"> Esta área é destinada aos estudos teóricos autônomos, os projetos em que são feitas em sua grande maioria pesquisas, textos, cartazes para conhecimento conceitual, especulativo, entre outros. Alguns exemplos de trabalhos são: Projeto Final de Matemática Multivariada, Projeto Final de Desconstruindo a Matéria, Projeto Final de Matemática da Variação e Cases de Grandes Desafios da Engenharia. </p>
+    </div>
+  </div>
+
+  <div class="group2">
+      <div class="title">
+        <h3> ESTUDO EMPRESARIAL </h3>
+      </div>
+      <div class="picture">
+        <a class="clicar" href="PaginaGrupo_Andre.html">
+          <img class="borda" src="images/inovacao.jpg" width="440" alt="Estudos Empresariais">
+        </a>
+      </div>
+      <div class="description">
+        <p class="text"> Esta área é destinada aos estudos empresariais, projetos que tem como enfoque inovações, propostas, consultorias e objetivos centrados ao mundo profissional atual do empreendedorismo. Alguns exemplos de trabalhos são: Modelo de Negócio para Startup Nova e Inovação Incremental para Empresa existente.</p>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div class="all">
+  <div class="group3">
+      <div class="title">
+        <h3> PROJETO AUTÔNOMO PRÁTICO-TEÓRICO </h3>
+      </div>
+      <div class="picture">
+        <a class="clicar" href="PaginaGrupo_luiza.html">
+          <img class="borda" src="images/projeto-pratico-teorico.jpg" width="440" height="290" alt="Projetos Autônomos Prático-Teóricos">
+        </a>
+      </div>
+      <div class="description">
+        <p class="text"> Esta área é destinada aos projetos autônomos que envolvem um estudo teórico conceitual por trás, um pouco dos Estudos Teóricos Autônomos, porém aplicados praticamente à algum desafio. Os trabalhos tem em sua maioria um enfoque em programação, pois necessitam de uma pesquisa prévia para começar a agir. Alguns exemplos são: Projeto Final de Design de Software, Projeto Final de Modelagem e Simulação, Projeto Final de Ciências dos Dados e Projeto Final de Co-Design de Aplicativos.</p>
+      </div>
+  </div>
+
+    <div class="group4">
+        <div class="title">
+          <h3> PROJETOS FÍSICOS E MECÂNICOS </h3>
+        </div>
+        <div class="picture">
+          <a class="clicar" href="PaginaGrupo_José.html">
+            <img class="borda" src="images/projetos-fisicos.jpeg" width="440" alt="Projetos Físicos e Mecânicos">
+          </a>
+        </div>
+        <div class="description">
+          <p class="text"> Esta área é destinada aos projetos que envolvem trabalhos práticos, conhecimentos prévios de física e muita mão na massa. Este tópico específico foi criado por conta da alta quantidade de estudos da mesma categoria. Há outros aspectos que são necessários para a elaboração. Alguns exemplos são: Melhoria para Carroças de Catadores, Girafa do Job Rotation, Estação Metereológica, Projeto Final de Acionamentos Elétricos e Projeto Final de Modelagem e Controle. </p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>

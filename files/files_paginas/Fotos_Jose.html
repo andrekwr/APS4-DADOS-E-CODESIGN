@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <title>Fotos</title>
+      <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css">
+      <meta charset="utf-8">
+      <meta name = "viewport" content="width=device-widht, initial-scale = 1">
+      <style>
+      @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+    
+
+    .main {
+          
+        display: flex;
+        margin: auto;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+            }
+
+
+      li {
+          display: inline-block;
+      }
+
+      li a {
+          display: inline-block;
+          color: #fff;
+          text-align: center;
+          padding: 1.5rem 5rem;
+          text-decoration: none;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+      }
+
+      li a:hover {
+          color: #FF0000
+      }
+
+
+      ul {
+          text-align: center;
+          overflow: hidden;
+          max-width: 1200rem;
+          margin-right: 2rem;
+          background-color: #2E2633;
+      }
+         
+         body{
+         background-color: whitesmoke;
+         }
+         .navbar{
+         display: flex;
+         justify-content: space-around;
+         align-content: center;
+         align-self: center;
+         margin: auto;
+         padding: 1rem;
+         max-width: 100%
+         max-height: 100%;
+         flex-wrap: nowrap;
+         }
+
+         .main_navbar{
+         background-color: whitesmoke;
+         display: flex;
+         justify-content: space-around;
+         align-content: center;
+         align-self: center;
+         margin: auto;
+         padding: 1rem;
+         }
+         .placa{
+         margin: 1rem;
+         padding: 1rem;
+         height: 18rem;
+         width: 32rem;
+         max-width: 100%;
+         max-height: 100%;
+         }
+         .titulo{
+         font-family: Ubuntu;
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         }
+         .texto{
+         font-family: Arial;
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         }
+         
+         .frase {
+            font-family: Ubuntu;
+            margin: 2rem 0rem 0rem 8rem;
+            font-size: 1.5rem
+          }
+
+         #logo_e_frase{
+          height:auto;
+          width:auto;
+          display: flex;
+          justify-content: center;
+          margin: 0rem 0rem 0rem 0rem;
+          }
+
+
+          .frase {
+            font-family: Ubuntu;
+            margin: 2rem 12rem 0rem 8rem;
+            font-size: 1.5rem
+            }
+
+          .logo_div{
+            margin: 0rem 0rem 0rem 0rem;
+
+          }
+
+          .dropdown {
+         float: left;
+         overflow: hidden;
+}
+
+      .dropdown {
+          font-size: 16px;    
+          border: none;
+          outline: none;
+          color: white;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+
+
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+          font-family: Ubuntu;
+          font-weight: bold;
+      }
+
+      .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+      }
+
+      .dropdown-content a:hover {
+          background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+        
+
+         @media (max-width: 360px) {
+          .main{
+             margin: 0.5rem;
+             padding: 0.5rem;
+             width: auto;
+             max-width: 100%
+             max-height:100%;
+          }
+
+          .placa{
+             margin: 0rem;
+             padding: 0rem;
+             width: auto;
+             max-width: 100%;
+             max-height: 100%;
+          }
+          .titulo{  
+            font-size: 0.75rem;
+
+          }
+          .texto{
+            font-size: 0.5rem;
+          }
+          
+
+
+          
+         }
+
+      </style>
+   </head>
+   <body>
+      
+   <div id="main_navbar">
+    <div id="logo_e_frase">
+     <div class="logo_div">
+       <img class="logo" width="250" height="150" id="logo" src='logo.jpg' alt="logo"/>
+     </div>
+
+      <div class="frase">
+          <h3> INSPIRAR, PERTENCER E INOVAR </h3>
+      </div>
+    </div> 
+     <div class="navbar">
+       <ul>
+        <div class="dropdown">
+          <li><a class="dropbtn" href="index.html">Home</a></li>
+          <div class="dropdown-content">
+              <a href="PaginaGrupo_Rodrigo.html">ESTUDO TEÓRICO AUTÔNOMO</a>
+              <a href="PaginaGrupo_Andre.html">ESTUDO EMPRESARIAL</a>
+              <a href="PaginaGrupo_luiza.html">PROJETO AUTÔNOMO PRÁTICO E TEÓRICO</a>
+              <a href="PaginaGrupo_José.html">PRJETOS FÍSICOS E MECÂNICOS</a>
+          </div>
+        </div> 
+        <li><a href="Sobre_nos_Rodrigo.html">Sobre nós</a></li>
+        <li><a href="Fotos_Jose.html">Fotos</a></li>
+        <li><a href="Contato_Luiza.html">Contatos</a></li>
+         
+       </ul>
+     </div>
+   </div>
+
+
+   
+
+
+      <div class="titulo">
+         <h1> Projetos Físicos e Mecânicos </h1>
+      </div>
+      <div class="texto">
+         <h2></h2>
+      </div>
+      <div class="main">
+         <div class="placa">
+            <img class="placa" src="Natureza_do_Design.jpg" alt="Natureza do design">
+         </div>
+         <div class="placa">
+            <img class="placa" src="estacao.jpeg" alt="Natureza do design">
+         </div>
+        
+      </div>
+      <div class="titulo">
+         <h1> Projetos Autônomo Prático-teóricos </h1>
+      </div>
+      <div class="texto">
+         <h2></h2>
+      </div>
+      <div class="main">
+         <div class="placa">
+            <img class="placa" src="python-logo.png" alt="Python">
+         </div>
+         <div class="placa">
+            <img class="placa" src="codigo_html.png" alt="Python">
+         </div>
+      </div>
+      <div class="titulo">
+         <h1> Estudos Teórico Autônomos </h1>
+      </div>
+      <div class="texto">
+         <h2></h2>
+      </div>
+      <div class="main">
+         <div class="placa">
+            <img class="placa" src="poster-luciana-lassance1.png" alt="Estudo autônomo de um artigo acadêmico">
+         </div>
+         <div class="placa">
+            <img class="placa" src="apresentacao.jpg" alt="Estudo autônomo de um artigo acadêmico">
+         </div>
+      
+      </div>
+      
+      <div class="titulo">
+         <h1> Empresarial </h1>
+      </div>
+      <div class="texto">
+         <h2></h2>
+      </div>
+      <div class="main">
+         <div class="placa">
+            <img class="placa" src="startup.jpeg" alt="Modelo de negócio para startup nova">
+         </div>
+         <div class="placa">
+            <img class="placa" src="empresa.jpeg" alt="Modelo de negócio para startup nova">
+         </div>
+         </div>
+      </div>
+   </body>
+</html>
